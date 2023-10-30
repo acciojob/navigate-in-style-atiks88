@@ -1,11 +1,15 @@
 /*  your css code here. If applicable */
-.navbar{
-	background-color:#D3D3D3;
-	padding:10px;
-	display: inline;
-list-style:no bullets;
+   .navbar {
+      background-color: #D3D3D3;
+      padding: 10px;
+    }
 
-}
-.list{
-     list-style:no bullets;
-}
+    .navbar ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .navbar li {
+      display: inline;
+      margin-right: 1rem;
+    }
